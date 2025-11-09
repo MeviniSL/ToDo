@@ -11,7 +11,7 @@ def home(request):
         return redirect('home')
 
     # show pending tasks
-    tasks = Task.objects.filter(is_completed=False)
+    tasks = Task.objects.filter(is_completed=False).order_by('-updated_at')
     context = {
         'tasks': tasks,
     }
