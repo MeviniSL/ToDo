@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import get_object_or_404, render, redirect
 from todo.models import Task 
 
 
@@ -19,5 +19,5 @@ def home(request):
         'completed_tasks': completed_tasks,
     }
     
-    
+
     return render(request, 'home.html', context)
