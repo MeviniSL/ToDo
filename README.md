@@ -19,10 +19,10 @@ This project demonstrates **CRUD operations** — Create, Read, Update, and Dele
 
 ## 🛠️ Technologies Used
 
-* **Python **
+* **Python**
 * **Django** (Backend Framework)
 * **SQLite** (Default Django Database)
-* **Bootstrap ** (Frontend Styling)
+* **Bootstrap** (Frontend Styling)
 * **HTML & CSS**
 
 ---
